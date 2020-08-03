@@ -1,0 +1,248 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+   
+}
+body {
+    background-color: #4a3f35;
+    
+  }
+ 
+  div{
+   
+    /*border: 1px solid black;*/
+    float: left;
+    padding: 10px;
+    margin-right: 50px;
+
+  }
+  h2{
+    text-align: center;
+   /* background-color: #E3DFC8;*/
+   color: #E3DFC8;
+    padding: 40px;
+
+  }
+
+  @media (min-width: 992px) {
+    div{
+        width: 30%;
+    }
+
+  #chicken{
+
+    background-color: #EEEEEE; 
+    padding: 0px 10px 10px 10px;
+    border: 1px solid #fa7d09;
+    margin: 10px 10px 10px 45px;
+   
+   
+  }
+
+  #chicken > h3 {
+    background-color: #fa7d09; 
+    float:right;
+    width: 100px;
+    text-align: center;
+    margin-bottom: 5px;
+    border: 0px 3px 3px 3px solid black;
+  }
+  #chicken > p {
+    clear: both;
+   
+  }
+
+  #beef{
+
+    background-color: #EEEEEE; 
+    padding: 0px 10px 10px 10px;
+    border: 1px solid #eebb4d;
+    margin: 10px;
+   
+  }
+
+  #beef > h3 {
+    background-color: #eebb4d; 
+    float:right;
+    width: 100px;
+    text-align: center;
+    margin-bottom: 5px;
+    border: 0px 3px 3px 3px solid black;
+  }
+  #beef > p {
+    clear: both;
+   
+  }
+  #sushi{
+
+    background-color: #EEEEEE; 
+    padding: 0px 10px 10px 10px;
+    border: 1px solid #89c9b8;
+    margin: 10px;
+   
+  }
+  #sushi > h3 {
+    background-color: #89c9b8; 
+    float:right;
+    width: 100px;
+    text-align: center;
+    margin-bottom: 5px;
+    border: 0px 3px 3px 3px solid black;
+  }
+  #sushi > p {
+    clear: both;
+   
+  }
+}
+@media (min-width: 768px) and  (max-width: 991px){
+
+
+    #chicken{
+
+        background-color: #EEEEEE; 
+        padding: 0px 10px 10px 10px;
+        border: 1px solid #fa7d09;
+        margin: 10px 10px 10px 10px;
+        width: 47%;
+      }
+    
+      #chicken > h3 {
+        background-color: #fa7d09; 
+        float:right;
+        width: 100px;
+        text-align: center;
+        margin-bottom: 5px;
+        border: 0px 3px 3px 3px solid black;
+      }
+      #chicken > p {
+        clear: both;
+       
+      }
+    
+      #beef{
+    
+        background-color: #EEEEEE; 
+        padding: 0px 10px 10px 10px;
+        border: 1px solid #eebb4d;
+        margin: 10px;
+        width: 48%;
+        float: right;
+       
+      }
+    
+      #beef > h3 {
+        background-color: #eebb4d; 
+        float:right;
+        width: 100px;
+        text-align: center;
+        margin-bottom: 5px;
+        border: 0px 3px 3px 3px solid black;
+      }
+      #beef > p {
+        clear: both;
+       
+      }
+      #sushi{
+
+        background-color: #EEEEEE; 
+        padding: 0px 10px 10px 10px;
+        border: 1px solid #89c9b8;
+        margin: 10px;
+        clear: both;
+       
+      }
+      #sushi > h3 {
+        background-color: #89c9b8; 
+        float:right;
+        width: 100px;
+        text-align: center;
+        margin-bottom: 5px;
+        border: 0px 3px 3px 3px solid black;
+      }
+      #sushi > p {
+        clear: both;
+       
+      }
+}
+@media (max-width: 767px){
+
+    div{
+        width: 90%;
+    }
+
+  #chicken{
+
+    background-color: #EEEEEE; 
+    padding: 0px 10px 10px 10px;
+    border: 1px solid #fa7d09;
+    margin: 10px 10px 10px 15px;
+    position: relative;
+    top: 0px;
+    left:0px;
+  }
+
+  #chicken > h3 {
+    background-color: #fa7d09; 
+    float:right;
+    width: 100px;
+    text-align: center;
+    margin-bottom: 5px;
+    border: 0px 3px 3px 3px solid black;
+  }
+  #chicken > p {
+    clear: both;
+   
+  }
+
+  #beef{
+
+    background-color: #EEEEEE; 
+    padding: 0px 10px 10px 10px;
+    border: 1px solid #eebb4d;
+    margin: 10px 10px 10px 15px;
+    position: absolute;
+    top: 330px;
+    left: 0px;
+   
+  }
+
+  #beef > h3 {
+    background-color: #eebb4d; 
+    float:right;
+    width: 100px;
+    text-align: center;
+    margin-bottom: 5px;
+    border: 0px 3px 3px 3px solid black;
+  }
+  #beef > p {
+    clear: both;
+   
+  }
+  #sushi{
+
+    background-color: #EEEEEE; 
+    padding: 0px 10px 10px 10px;
+    border: 1px solid #89c9b8;
+    margin: 10px 10px 10px 15px;
+    position: absolute;
+    top: 550px;
+    left: 0px;
+   
+  }
+  #sushi > h3 {
+    background-color: #89c9b8; 
+    float:right;
+    width: 100px;
+    text-align: center;
+    margin-bottom: 5px;
+    border: 0px 3px 3px 3px solid black;
+  }
+  #sushi > p {
+    clear: both;
+   
+  }
+
+}
