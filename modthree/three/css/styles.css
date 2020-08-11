@@ -1,0 +1,133 @@
+body {
+  font-size: 16px;
+  color: #fff;
+  background-color: #1B262C;
+  font-family: 'Oxygen', sans-serif;
+}
+#Titulo {
+  margin-top: 5px;
+  font-size: 1.5em;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+  color: #fdcb9e;
+  text-shadow: 1px 1px 1px #b52b65;
+}
+.jumbotron h3 {
+  text-align: center;
+  text-shadow: 1px 1px 1px #b52b65;
+}
+
+/** HEADER **/
+#header-nav {
+  background-color: #00b7c2;
+  border-radius: 0;
+  border: 0;
+}
+
+#collapsable-nav{ /* Collapsed nav menu text */
+  font-size: 0;
+}
+
+.navbar-brand {
+  padding-top: 15px;
+  
+}
+
+.navbar-brand h1 { /* FOOD name */
+  font-family: 'Lora', serif;
+  color: #fdcb9e;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #b52b65;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+.navbar-brand p span { /* Star-K */
+  vertical-align: middle;
+}
+
+#nav-list {
+  margin-top: 10px;
+  color: #fdcb9e;
+  text-align: center;
+}
+
+#nav-list a:hover {
+  background: #b52b65;
+}
+#nav-list a span {
+  font-size: 1.8em;
+  text-align: center;
+}
+
+
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #b52b65;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+/* END HEADER */
+
+.jumbotron{
+  background-color: #0f4c75;
+}
+h3 p{
+ text-align: center;
+}
+
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+  
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+  /* Header */
+  .navbar-brand {
+    padding-top: 15px;
+    height: 80px;
+  }
+  .navbar-brand h1 { /* Restaurant name */
+    padding-top: 15px;
+    font-size: 5vw; /* 1vw = 1% of viewport width */
+  }
+  .navbar-brand p { /* Kosher cert */
+    font-size: .6em;
+    margin-top: 12px;
+  }
+  .navbar-brand p img { /* Star-K */
+    height: 20px;
+  }
+
+  #collapsable-nav{ /* Collapsed nav menu text */
+    clear: both;
+    font-size: 1.2em;
+  }
+  #collapsable-nav a span { /* Collapsed nav menu glyph */
+    font-size: 1em;
+    margin-right: 5px;
+  }
+
+  
+  /* End Header */
+
+}
